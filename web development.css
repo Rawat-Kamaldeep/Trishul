@@ -1,19 +1,19 @@
 /* Base & Reset */
 :root {
-    --background: #faf9f7;
+    --background: #02152663;;
     --foreground: #1a1f2c;
-    --primary: #ff7b29; /* Orange */
-    --primary-light: #ff9a5e;
-    --primary-dark: #e65f0c;
-    --gray-100: #f8f9fa;
-    --gray-200: #e9ecef;
-    --gray-300: #dee2e6;
-    --gray-400: #ced4da;
+    --primary: #0099cc; /* Orange */
+    --primary-light: #0099cc;
+    --primary-dark: #0099cc;
+    --gray-900: #f8f9fa;
+    --gray-800: #e9ecef;
+    --gray-700: #dee2e6;
+    --gray-600: #282c30;
     --gray-500: #adb5bd;
-    --gray-600: #6c757d;
-    --gray-700: #495057;
-    --gray-800: #343a40;
-    --gray-900: #212529;
+    --gray-400: #6c757d;
+    --gray-300: #495057;
+    --gray-200: #343a40;
+    --gray-100: #212529a1;
     --border-radius: 0.75rem;
     --border-radius-full: 9999px;
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -153,7 +153,7 @@
     right: 0;
     z-index: 1000;
     padding: 1rem 0;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: black;
     backdrop-filter: blur(8px);
     transition: var(--transition);
     box-shadow: var(--shadow-sm);
@@ -170,7 +170,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: white;
+    background-color: black;
     
 }
 
@@ -195,7 +195,7 @@
 }
 
 .nav-link {
-    color: #333;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -204,11 +204,11 @@
 }
 
 .nav-link:hover {
-    color: #FF8C00;
+    color: #0099CC;
 }
 
 .active {
-    color: #FF8C00;
+    color: #0099CC;
 }
 
 .dropdown {
@@ -254,11 +254,11 @@
 }
 
 .dropdown-item:hover .dropdown-link {
-    color: #FF8C00;
+    color: #0099CC;
 }
 
 .request-btn {
-    background-color: #FF8C00;
+    background-color: #0099CC;
     color: white;
     padding: 12px 25px;
     border-radius: 50px;
@@ -617,6 +617,7 @@
     padding: 6rem 0;
     text-align: center;
     background-color: var(--gray-100);
+    color: #0099cc;
   }
   
   .cta h2 {
@@ -626,7 +627,7 @@
   .cta p {
     max-width: 36rem;
     margin: 0 auto 2rem;
-    color: var(--gray-600);
+    color: white;
   }
   
   /* Footer styles */
@@ -674,7 +675,7 @@
 
 .book-call-btn {
     display: inline-block;
-    background-color: #ff8c00;
+    background-color: #0099CC;
     color: white;
     padding: 12px 25px;
     border-radius: 5px;
@@ -709,7 +710,7 @@
 }
 
 .footer-links a:hover {
-    color: #ff8c00;
+    color: #0099CC;
 }
 
 .footer-address, .footer-contact {
@@ -725,7 +726,7 @@
 }
 
 .footer-contact a:hover {
-    color: #ff8c00;
+    color: #0099CC;
 }
 
 @media screen and (max-width: 768px) {
